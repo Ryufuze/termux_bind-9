@@ -1,0 +1,21 @@
+--- ../bind-9.19.5/configure	2022-09-08 15:02:16.000000000 +0300
++++ ./configure	2022-10-09 11:25:44.015903188 +0300
+@@ -10497,7 +10497,7 @@
+ fi
+ 
+ 
+-
++enable_static=no
+ 
+ 
+ 
+
+@@ -22524,7 +22524,7 @@
+     enable_linux_caps=no ;;
+ esac
+ fi
+-
++enable_linux_caps=no
+ 
+ if test "$enable_linux_caps" = "yes"; then :
+   { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
